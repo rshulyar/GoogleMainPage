@@ -1,0 +1,8 @@
+.mainDiv {
+  color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: column;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 521px;
+}
