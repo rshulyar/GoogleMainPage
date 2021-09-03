@@ -1,0 +1,75 @@
+.upperHeader {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 48px;
+    line-height: 27px;
+    min-width: 0px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.25s;
+    transition-property: box-shadow;
+    transition-timing-function: ease;
+    width: 873px;
+    z-index: 986;
+}
+
+.lowerHeader {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    float: right;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 48px;
+    justify-content: flex-end;
+    line-height: normal;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 4px;
+    padding-top: 0px;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 253.266px;
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+}
+
+.linkHeader {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 24px;
+    line-height: normal;
+    user-select: none;
+    white-space: nowrap;
+    width: 153.266px;
+}

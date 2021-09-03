@@ -1,11 +1,11 @@
 //import logo from './logo.svg';
-import GmailLink from './components/header/gmail-link';
+import Header from './components/header';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <GmailLink/>
+      <Header/>
     </div>
   );
 }
