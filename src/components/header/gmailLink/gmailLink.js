@@ -1,5 +1,5 @@
 import React from 'react';
-import './gmail-link.css';
+import './gmailLink.css';
 
 function GmailLink() {
 

@@ -1,4 +1,4 @@
-/*Увага!!! В файли костиль. Деталі нижче*/
+/* Warning!!! In the file crutch. Details below. */
 
 .upperHeader {
     align-items: center;
@@ -68,8 +68,8 @@
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    /*width: 253.266px;*/
-    width: 35%; /*Костиль №1! Видалити після додавання всіх елементів header, i розкоментуваті закоментоване. Вносити правки за обставинами*/
+    /* width: 253.266px; */
+    width: 35%; /* Crutch №1! Remove after adding all the elements of the header, and comment out the annotated. Make adjustments to the circumstances */
     -webkit-box-align: center;
     -webkit-box-pack: start;
 }
@@ -112,5 +112,5 @@
     user-select: none;
     white-space: nowrap;
     /*width: 96px;*/
-    width: 190px; /*Костиль №2! Видалити після додавання всіх елементів header, i розкоментуваті закоментоване. Вносити правки за обставинами*/
+    width: 190px; /* Crutch №2! Remove after adding all the elements of the header, and comment out the annotated. Make adjustments to the circumstances */
 }
