@@ -1,5 +1,5 @@
 import React from 'react';
-import GmailLink from './gmail-link';
+import GmailLink from './gmailLink';
 import './header.css';
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
                     <GmailLink/>
                     </div>
                     <div className="menuAndAccountHeader">
-
+                        {/* todo: fill needed code */}
                     </div>
                 </div>
             </div>
