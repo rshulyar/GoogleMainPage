@@ -1,4 +1,4 @@
-/*Роман, ти залишив тут костиль. Зверні увагу на закоментоване!!!*/
+/*Увага!!! В файли костиль. Деталі нижче*/
 
 .upperHeader {
     align-items: center;
@@ -69,7 +69,7 @@
     vertical-align: middle;
     white-space: nowrap;
     /*width: 253.266px;*/
-    width: 35%;
+    width: 35%; /*Костиль №1! Видалити після додавання всіх елементів header, i розкоментуваті закоментоване. Вносити правки за обставинами*/
     -webkit-box-align: center;
     -webkit-box-pack: start;
 }
@@ -112,5 +112,5 @@
     user-select: none;
     white-space: nowrap;
     /*width: 96px;*/
-    width: 190px;
+    width: 190px; /*Костиль №2! Видалити після додавання всіх елементів header, i розкоментуваті закоментоване. Вносити правки за обставинами*/
 }
