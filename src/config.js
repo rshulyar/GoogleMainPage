@@ -1,3 +1,5 @@
-let gmailLink = "https://mail.google.com/mail/&ogbl";
+const config = {
+    gmailLink: 'https://gmail.com',
+};
 
-export {gmailLink};
+export default config;

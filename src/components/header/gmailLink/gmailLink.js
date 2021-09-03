@@ -1,11 +1,11 @@
 import React from 'react';
 import './gmailLink.css';
-import {gmailLink} from './../../../config.js';
+import config from './../../../config';
 
 function GmailLink() {
 
     return (
-        <a href={gmailLink}>Gmail</a>
+        <a href={config.gmailLink}>Gmail</a>
     )
 }
 

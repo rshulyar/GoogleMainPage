@@ -11,7 +11,7 @@ function Header() {
                     <GmailLink/>
                     </div>
                     <div className="menuAndAccountHeader">
-
+                        {/* todo: fill needed code */}
                     </div>
                 </div>
             </div>
