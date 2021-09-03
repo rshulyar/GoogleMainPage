@@ -1,4 +1,21 @@
+/*Роман, ти залишив тут костиль. Зверні увагу на закоментоване!!!*/
+
 .upperHeader {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 60px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+}
+
+.middleHeader {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -18,7 +35,8 @@
     transition-duration: 0.25s;
     transition-property: box-shadow;
     transition-timing-function: ease;
-    width: 873px;
+    /*width: 873px;*/
+    width: 100%;
     z-index: 986;
 }
 
@@ -50,7 +68,8 @@
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 253.266px;
+    /*width: 253.266px;*/
+    width: 35%;
     -webkit-box-align: center;
     -webkit-box-pack: start;
 }
@@ -71,5 +90,27 @@
     line-height: normal;
     user-select: none;
     white-space: nowrap;
-    width: 153.266px;
+    /*width: 153.266px;*/
+}
+
+.menuAndAccountHeader {
+    color: rgb(0, 0, 0);
+    display: block;
+    float: right;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 48px;
+    line-height: normal;
+    position: relative;
+    user-select: none;
+    white-space: nowrap;
+    /*width: 96px;*/
+    width: 190px;
 }

@@ -5,9 +5,14 @@ import './header.css';
 function Header() {
     return (
         <div className="upperHeader">
-            <div className="lowerHeader">
-                <div className="linkHeader">
+            <div className="middleHeader">
+                <div className="lowerHeader">
+                    <div className="linkHeader">
                     <GmailLink/>
+                    </div>
+                    <div className="menuAndAccountHeader">
+
+                    </div>
                 </div>
             </div>
         </div>

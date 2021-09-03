@@ -23,6 +23,7 @@ a {
     vertical-align: middle;
     white-space: nowrap;
     width: 33.9531px;
+    margin-right: 10px;
 }
 
 a:hover { 
