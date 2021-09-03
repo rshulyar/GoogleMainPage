@@ -1,5 +1,6 @@
 import React from 'react';
 import GmailLink from './gmailLink';
+import ImagesLink from './imagesLink';
 import './header.css';
 
 function Header() {
@@ -8,7 +9,8 @@ function Header() {
             <div className="middleHeader">
                 <div className="lowerHeader">
                     <div className="linkHeader">
-                    <GmailLink/>
+                        <GmailLink/>
+                        <ImagesLink/>
                     </div>
                     <div className="menuAndAccountHeader">
                         {/* todo: fill needed code */}

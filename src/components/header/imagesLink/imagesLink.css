@@ -1,6 +1,5 @@
-.gmailLinkClass {
-    text-decoration: none;
-    
+
+.imagesLinkClass {
     color: rgba(0, 0, 0, 0.87);
     cursor: pointer;
     display: inline-block;
@@ -22,7 +21,9 @@
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    width: 33.9531px;
+    width: 74.3125px;
+
+    margin-left: 15px;
 }
 
 a:hover { 
