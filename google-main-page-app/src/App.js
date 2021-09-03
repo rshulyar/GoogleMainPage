@@ -1,10 +1,11 @@
-import GmailButton from './components/header/gmail-button';
+//import logo from './logo.svg';
+import GmailLink from './components/header/gmail-link';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <GmailButton/>
+      <GmailLink/>
     </div>
   );
 }
