@@ -5,14 +5,14 @@ import './header.css';
 
 function Header() {
     return (
-        <div className="upperHeader">
-            <div className="middleHeader">
-                <div className="lowerHeader">
-                    <div className="linkHeader">
+        <div className="upper">
+            <div className="middle underUpper">
+                <div className="lower underUpper">
+                    <div className="link underUpper underLower">
                         <GmailLink/>
                         <ImagesLink/>
                     </div>
-                    <div className="menuAndAccountHeader">
+                    <div className="menuAndAccount underUpper underLower">
                         {/* todo: fill needed code */}
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-.upperHeader {
+.upper {
     align-items: center;
     box-sizing: border-box;
     color: rgb(34, 34, 34);
@@ -14,18 +14,8 @@
     padding-top: 6px;
 }
 
-.middleHeader {
-    color: rgb(0, 0, 0);
+.middle {
     display: block;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
     height: 48px;
     line-height: 27px;
     min-width: 0px;
@@ -38,24 +28,14 @@
     z-index: 986;
 }
 
-.lowerHeader {
+.lower {
     align-items: center;
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
     display: flex;
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
     float: right;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
     height: 48px;
     justify-content: flex-end;
     line-height: normal;
@@ -71,29 +51,20 @@
     -webkit-box-pack: start;
 }
 
-.linkHeader {
-    color: rgb(0, 0, 0);
-    display: block;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
+.link {
     height: 24px;
-    line-height: normal;
-    user-select: none;
-    white-space: nowrap;
     width: 138.266px;
 }
 
-.menuAndAccountHeader {
-    color: rgb(0, 0, 0);
-    display: block;
+.menuAndAccount {
     float: right;
+    height: 48px;
+    position: relative;
+    width: 96px;
+}
+
+.underUpper {
+    color: rgb(0, 0, 0);
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
     font-size: 13px;
     font-stretch: 100%;
@@ -103,10 +74,11 @@
     font-variant-ligatures: normal;
     font-variant-numeric: normal;
     font-weight: 400;
-    height: 48px;
+}
+
+.underLower {
+    display: block;
     line-height: normal;
-    position: relative;
     user-select: none;
     white-space: nowrap;
-    width: 96px;
 }
