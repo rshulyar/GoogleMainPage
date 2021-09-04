@@ -1,6 +1,4 @@
-/* Warning!!! In the file crutch. Details below. */
-
-.upperHeader {
+.upper {
     align-items: center;
     box-sizing: border-box;
     color: rgb(34, 34, 34);
@@ -9,24 +7,15 @@
     font-family: arial, sans-serif;
     font-size: 14px;
     height: 60px;
+    width: 100%;
     padding-bottom: 6px;
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 6px;
 }
 
-.middleHeader {
-    color: rgb(0, 0, 0);
+.middle {
     display: block;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
     height: 48px;
     line-height: 27px;
     min-width: 0px;
@@ -35,29 +24,18 @@
     transition-duration: 0.25s;
     transition-property: box-shadow;
     transition-timing-function: ease;
-    /*width: 873px;*/
     width: 100%;
     z-index: 986;
 }
 
-.lowerHeader {
+.lower {
     align-items: center;
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
     display: flex;
     flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 0;
     float: right;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
     height: 48px;
     justify-content: flex-end;
     line-height: normal;
@@ -68,35 +46,25 @@
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    /* width: 253.266px; */
-    width: 35%; /* Crutch №1! Remove after adding all the elements of the header, and comment out the annotated. Make adjustments to the circumstances */
+    width: 285.266px;
     -webkit-box-align: center;
     -webkit-box-pack: start;
 }
 
-.linkHeader {
-    color: rgb(0, 0, 0);
-    display: block;
-    font-family: Roboto, RobotoDraft, Arial, sans-serif;
-    font-size: 13px;
-    font-stretch: 100%;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-weight: 400;
+.link {
     height: 24px;
-    line-height: normal;
-    user-select: none;
-    white-space: nowrap;
-    /*width: 153.266px;*/
+    width: 138.266px;
 }
 
-.menuAndAccountHeader {
-    color: rgb(0, 0, 0);
-    display: block;
+.menuAndAccount {
     float: right;
+    height: 48px;
+    position: relative;
+    width: 96px;
+}
+
+.underUpper {
+    color: rgb(0, 0, 0);
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
     font-size: 13px;
     font-stretch: 100%;
@@ -106,11 +74,11 @@
     font-variant-ligatures: normal;
     font-variant-numeric: normal;
     font-weight: 400;
-    height: 48px;
+}
+
+.underLower {
+    display: block;
     line-height: normal;
-    position: relative;
     user-select: none;
     white-space: nowrap;
-    /*width: 96px;*/
-    width: 190px; /* Crutch №2! Remove after adding all the elements of the header, and comment out the annotated. Make adjustments to the circumstances */
 }
