@@ -1,12 +1,16 @@
 import React from 'react';
+import MenuWindowElement from './../menuWindowElement';
+import config from './../../../../config';
 import './menuWindow.css';
 
-const MenuWindow = ({active, setActive}) => {
+function MenuWindow() {
     return (
-        <div className="modal">
-            <div className="modalContent">
-                {/*  */}
-            </div>
+        <div className='menuWindow'>
+            <MenuWindowElement/>
+            <MenuWindowElement/>
+            <MenuWindowElement/>
+            <MenuWindowElement/>
+            <MenuWindowElement/>
         </div>
     )
 }
