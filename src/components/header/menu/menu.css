@@ -1,0 +1,42 @@
+.upperMenu {
+    color: rgb(0, 0, 0);
+    display: inline;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: auto;
+    line-height: normal;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+}
+
+.lowerMenu {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 40px;
+    line-height: normal;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 40px;
+}

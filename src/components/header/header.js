@@ -1,6 +1,7 @@
 import React from 'react';
 import GmailLink from './gmailLink';
 import ImagesLink from './imagesLink';
+import Menu from './menu';
 import './header.css';
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
                         <ImagesLink/>
                     </div>
                     <div className="menuAndAccount underUpper underLower">
-                        {/* todo: fill needed code */}
+                        <Menu/>
                     </div>
                 </div>
             </div>
