@@ -32,4 +32,22 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    overflow-y: auto;
+}
+
+.menuWindow::-webkit-scrollbar {
+    width: 14px;
+    /* background-color: #f9f9fd; */
+}
+  
+.menuWindow::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(129, 118, 118, 0.623);
+    border: 3px solid white;
+}
+  
+.menuWindow::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); */
+    border-radius: 8px;
+    /* background-color: #f9f9fd; */
 }

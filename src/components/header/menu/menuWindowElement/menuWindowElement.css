@@ -71,9 +71,9 @@
 }
 
 .span1MenuWindowElement {
-    background-image: url(https://ssl.gstatic.com/gb/images/p1_527d3d09.png);
+    background-image: url(./menuWindowElementImages.png);
     background-position-x: 0px;
-    background-position-y: -1794px;
+    background-position-y: -1794px; /* sprite position */
     background-size: 64px 3100px;
     color: rgb(41, 98, 255);
     cursor: pointer;
