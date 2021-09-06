@@ -2,17 +2,17 @@ import React from 'react';
 import config from './../../../../config';
 import './menuWindowElement.css';
 
-function menuWindowElement() {
+function MenuWindowElement(props) {
     return (
         <div className="div1MenuWindowElement">
-            <a href={config.menu1[0][1]} className="aMenuWindowElement">
+            <a href={props.link} className="aMenuWindowElement">
                 <div className="div2MenuWindowElement">
-                    <span className="span1MenuWindowElement"></span>
+                    <span className="span1MenuWindowElement" style={{backgroundPositionY:props.positionY}}></span>
                 </div>
-                <span className="span2MenuWindowElement">{config.menu1[0][0]}</span>
+                <span className="span2MenuWindowElement">{props.name}</span>
             </a>
         </div>
     )
 }
 
-export default menuWindowElement;
+export default MenuWindowElement;

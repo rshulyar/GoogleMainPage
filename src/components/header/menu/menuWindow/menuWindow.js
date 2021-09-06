@@ -26,14 +26,12 @@ function MenuWindow() {
 
     const result = [];
     for (let i = 0; i < config1Length; i++) {
-        result.push(<MenuWindowElement/>)
+        result.push(<MenuWindowElement name={config.menu1[i][0]} link={config.menu1[i][1]} positionY={config.menu1[i][2]}/>)
         reverseArrNum--;
     }
     return (
         <div className='menuWindow'>
-            {
-        result
-        }
+            {result}
         </div>
     )
 }
