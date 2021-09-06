@@ -30,8 +30,15 @@ function MenuWindow() {
         reverseArrNum--;
     }
     return (
-        <div className='menuWindow'>
-            {result}
+        <div className="underMenuWindowDiv">
+            <div className='menuWindow'>
+                <div className="firstMenuParth">
+                    {result}
+                </div>
+                <div className="secondMenuParth">
+                    {result}
+                </div>
+            </div>
         </div>
     )
 }
