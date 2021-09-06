@@ -25,6 +25,7 @@
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    border-radius: 50%;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -56,6 +57,10 @@
     vertical-align: middle;
     white-space: nowrap;
     width: 40px;
+}
+
+.aMenuButton:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .imgMenuButton {

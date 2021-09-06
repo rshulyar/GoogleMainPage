@@ -21,6 +21,10 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.aMenuWindowElement:hover {
+    background-color: rgb(231, 242, 248);
+} 
+
 .aMenuWindowElement {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;

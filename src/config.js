@@ -18,25 +18,25 @@ const config = {
         ['Duo', 'https://duo.google.com/?usp=duo_ald', -2484]
     ],
     menu2: [
-        ['Документи', 'https://docs.google.com/document/?usp=docs_alc&authuser=0', ''],
-        ['Таблиці', 'https://docs.google.com/spreadsheets/?usp=sheets_alc&authuser=0', ''],
-        ['Презентації', 'https://docs.google.com/presentation/?usp=slides_alc&authuser=0', ''],
-        ['Книги', 'https://books.google.com.ua/?hl=uk', ''],
-        ['Blogger', 'https://www.blogger.com/', ''],
-        ['Hangouts', 'https://hangouts.google.com/', ''],
-        ['Keep', 'https://keep.google.com/u/0', ''],
-        ['Jumboard', 'https://jamboard.google.com/?authuser=0&usp=jam_ald', ''],
-        ['Клас', 'https://classroom.google.com/?authuser=0', ''],
-        ['Земля', 'https://earth.google.com/web/', ''],
-        ['Колекції', 'https://www.google.com.ua/save', ''],
-        ['Arts and culture', 'https://artsandculture.google.com/?hl=uk&utm_source=ogs.google.com&utm_medium=referral&authuser=0', ''],
-        ['Google ads', 'https://ads.google.com/home/?subid=ww-ww-et-g-aw-a-vasquette_ads_cons_1!o2', ''],
-        ['Подкасти', 'https://podcasts.google.com/', ''],
-        ['Google one', 'https://one.google.com/', ''],
-        ['Поїздки', 'https://www.google.com/travel/?dest_src=al', ''],
-        ['Форми', 'https://docs.google.com/forms/?authuser=0&usp=forms_alc', '']
+        ['Документи', 'https://docs.google.com/document/?usp=docs_alc&authuser=0', -1242],
+        ['Таблиці', 'https://docs.google.com/spreadsheets/?usp=sheets_alc&authuser=0', -2208],
+        ['Презентації', 'https://docs.google.com/presentation/?usp=slides_alc&authuser=0', -2277],
+        ['Книги', 'https://books.google.com.ua/?hl=uk', -2760],
+        ['Blogger', 'https://www.blogger.com/', -1863],
+        ['Hangouts', 'https://hangouts.google.com/', -2415],
+        ['Keep', 'https://keep.google.com/u/0', -276],
+        ['Jumboard', 'https://jamboard.google.com/?authuser=0&usp=jam_ald', -2070],
+        ['Клас', 'https://classroom.google.com/?authuser=0', -966],
+        ['Земля', 'https://earth.google.com/web/', -1380],
+        ['Колекції', 'https://www.google.com.ua/save', -621],
+        ['Arts and culture', 'https://artsandculture.google.com/?hl=uk&utm_source=ogs.google.com&utm_medium=referral&authuser=0', -1518],
+        ['Google ads', 'https://ads.google.com/home/?subid=ww-ww-et-g-aw-a-vasquette_ads_cons_1!o2', -414],
+        ['Подкасти', 'https://podcasts.google.com/', -552],
+        ['Google one', 'https://one.google.com/', -2691],
+        ['Поїздки', 'https://www.google.com/travel/?dest_src=al', -3036],
+        ['Форми', 'https://docs.google.com/forms/?authuser=0&usp=forms_alc', -2139]
     ],
-    menuLink: ''
+    menuLink: 'https://www.google.com.ua/intl/uk/about/products?tab=rh'
 };
 
 export default config;
