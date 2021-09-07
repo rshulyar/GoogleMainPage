@@ -57,6 +57,8 @@
     vertical-align: middle;
     white-space: nowrap;
     width: 40px;
+
+    /* background-color: rgb(217, 218, 220); */
 }
 
 .aMenuButton:hover {
