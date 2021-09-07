@@ -6,14 +6,14 @@ import './menu.css';
 const Menu = () => {
     const [open, setOpen] = useState(false);
 
-    function cOut () {
+    function mouseClick () {
         setOpen(!open);
     }
 
     return (
         <div className="upper-menu menu">
             <div className="lower-menu menu">
-                <MenuButton click={cOut}/>
+                <MenuButton click={mouseClick}/>
                 {open && <MenuWindow onClose={() => setOpen(false)}/>}
             </div>
         </div>
