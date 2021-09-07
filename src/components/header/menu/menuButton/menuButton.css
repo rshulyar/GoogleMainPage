@@ -18,8 +18,6 @@
     width: 40px;
 }
 
-/*  */
-
 .div-menu-button .hint {
     visibility: hidden;
     width: 120px;
@@ -41,8 +39,6 @@
     transition-delay: 0.5s;
     opacity: 1;
 }
-
-/*  */
 
 .a-menu-button {
     background-position-x-: 64px;
