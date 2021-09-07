@@ -1,9 +1,8 @@
-.div1MenuWindowElement {
+.div1-menu-window-element {
     color: rgba(0, 0, 0, 0.87);
     display: inline-block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     height: 84px;
-    list-style-type: none;
     padding-bottom: 6px;
     padding-left: 6px;
     padding-right: 6px;
@@ -19,13 +18,9 @@
     width: 84px;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.aMenuWindowElement:hover {
-    background-color: rgb(231, 242, 248);
 } 
 
-.aMenuWindowElement {
+.a-menu-window-element {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -35,7 +30,6 @@
     display: block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     height: 84px;
-    list-style-type: none;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -57,13 +51,16 @@
     -webkit-user-drag: none;
 }
 
-.div2MenuWindowElement {
+.a-menu-window-element:hover {
+    background-color: rgb(231, 242, 248);
+}
+
+.div2-menu-window-element {
     color: rgb(41, 98, 255);
     cursor: pointer;
     display: block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     height: 62px;
-    list-style-type: none;
     text-align: center;
     text-decoration-thickness: auto;
     text-size-adjust: 100%;
@@ -74,17 +71,16 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.span1MenuWindowElement {
-    background-image: url(./menuWindowElementImages.png);
+.span1-menu-window-element {
+    background-image: url(./../../../../img/menuWindowElementImages.png);
     background-position-x: 0px;
-    background-position-y: -1794px; /* sprite position */
+    background-position-y: -1794px;
     background-size: 64px 3100px;
     color: rgb(41, 98, 255);
     cursor: pointer;
     display: inline-block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
     height: 64px;
-    list-style-type: none;
     text-align: center;
     text-decoration-thickness: auto;
     text-size-adjust: 100%;
@@ -95,7 +91,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.span2MenuWindowElement {
+.span2-menu-window-element {
     color: rgb(32, 33, 36);
     cursor: pointer;
     display: inline-block;
@@ -104,7 +100,6 @@
     height: 18px;
     letter-spacing: 0.09px;
     line-height: 18px;
-    list-style-type: none;
     overflow-x: hidden;
     overflow-y: hidden;
     text-align: center;

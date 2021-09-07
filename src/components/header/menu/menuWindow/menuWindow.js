@@ -10,18 +10,6 @@ function MenuWindow({onClose}) {
 
     const divMenuWindow = document.querySelector('.menuWindow');
 
-    // function spawnMenuWindowElements() {
-    //     let config1Length = config1.length;
-    //     let reverseArrNum = config1.length - 1;
-
-    //     for (let i = 0; i < config1Length; i++) {
-    //         divMenuWindow.insertAdjacentHTML('afterbegin', <MenuWindowElement/>);
-    //         reverseArrNum--;
-    //     }
-    // }
-
-    //spawnMenuWindowElements();
-
     let config1Length = config1.length;
     let config2Length = config2.length;
     let reverseArrNum = config1.length - 1;
@@ -39,17 +27,17 @@ function MenuWindow({onClose}) {
     }
 
     return (
-        <div className="closeMenuWindow" onClick={onClose}>
-            <div className='menuWindow' onClick={(e)=>{e.stopPropagation()}}>
-                <div className="menuParth1">
+        <div className="close-menu-window" onClick={onClose}>
+            <div className='menu-window' onClick={(e)=>{e.stopPropagation()}}>
+                <div className="menu-parth1">
                     {result}
                 </div>
-                <hr className="betweenParthMenu"></hr>
-                <div className="menuParth2">
+                <hr className="between-parth-menu"></hr>
+                <div className="menu-parth2">
                     {result2}
                 </div>
-                <div className="divLinkInTheEndMenu">
-                    <a href={config.menuLink} className="linkInTheEndMenu">Більше від Google</a>
+                <div className="div-link-in-the-end-menu">
+                    <a href={config.menuLink} className="link-in-the-end-menu">Більше від Google</a>
                 </div>
             </div>
         </div>

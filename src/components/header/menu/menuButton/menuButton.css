@@ -1,4 +1,4 @@
-.divMenuButton {
+.div-menu-button {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -18,7 +18,7 @@
     width: 40px;
 }
 
-.aMenuButton {
+.a-menu-button {
     background-position-x-: 64px;
     background-position-y-: 29px;
     border-bottom-left-radius: 2px;
@@ -61,11 +61,11 @@
     /* background-color: rgb(217, 218, 220); */
 }
 
-.aMenuButton:hover {
+.a-menu-button:hover {
     background-color: rgb(240, 240, 240);
 }
 
-.imgMenuButton {
+.img-menu-button {
     color: rgb(95, 99, 104);
     cursor: pointer;
     display: inline;
@@ -79,7 +79,7 @@
     font-variant-ligatures: normal;
     font-variant-numeric: normal;
     font-weight: 400;
-    height: 18px; /* 24 */
+    height: 18px;
     line-height: normal;
     opacity: 1;
     overflow-x: hidden;
@@ -87,7 +87,7 @@
     text-decoration-thickness: auto;
     user-select: none;
     white-space: nowrap;
-    width: 16px; /* 24 */
+    width: 16px;
     margin-top: 3px;
     margin-left: 4px;
 }

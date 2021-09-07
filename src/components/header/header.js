@@ -7,13 +7,13 @@ import './header.css';
 function Header() {
     return (
         <div className="upper">
-            <div className="middle underUpper">
-                <div className="lower underUpper">
-                    <div className="link underUpper underLower">
+            <div className="middle under-upper">
+                <div className="lower under-upper">
+                    <div className="link under-upper under-lower">
                         <GmailLink/>
                         <ImagesLink/>
                     </div>
-                    <div className="menuAndAccount underUpper underLower">
+                    <div className="menuAndAccount under-upper under-lower">
                         <Menu/>
                     </div>
                 </div>

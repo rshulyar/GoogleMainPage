@@ -6,7 +6,7 @@ import config from './../../../config';
 function ImagesLink() {
 
     return (
-        <a className="imagesLinkClass linkClass" href={config.imagesLink}>Зображення</a>
+        <a className="images-link common-link" href={config.imagesLink}>Зображення</a>
     )
 }
 

@@ -1,4 +1,4 @@
-.linkClass {
+.common-link {
     color: rgba(0, 0, 0, 0.87);
     cursor: pointer;
     display: inline-block;
@@ -22,6 +22,6 @@
     white-space: nowrap;
 }
 
-.linkClass:hover { 
+.common-link:hover { 
     text-decoration: underline;
 }

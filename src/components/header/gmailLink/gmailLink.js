@@ -6,7 +6,7 @@ import config from './../../../config';
 function GmailLink() {
 
     return (
-        <a className="gmailLinkClass linkClass" href={config.gmailLink}>Gmail</a>
+        <a className="gmail-link common-link" href={config.gmailLink}>Gmail</a>
     )
 }
 

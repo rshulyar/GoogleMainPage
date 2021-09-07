@@ -63,7 +63,7 @@
     width: 96px;
 }
 
-.underUpper {
+.under-upper {
     color: rgb(0, 0, 0);
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
     font-size: 13px;
@@ -76,7 +76,7 @@
     font-weight: 400;
 }
 
-.underLower {
+.under-lower {
     display: block;
     line-height: normal;
     user-select: none;

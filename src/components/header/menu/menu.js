@@ -11,8 +11,8 @@ const Menu = () => {
     }
 
     return (
-        <div className="upperMenu">
-            <div className="lowerMenu">
+        <div className="upper-menu menu">
+            <div className="lower-menu menu">
                 <MenuButton click={cOut}/>
                 {open && <MenuWindow onClose={() => setOpen(false)}/>}
             </div>

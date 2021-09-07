@@ -1,12 +1,14 @@
-import React, {useState} from 'react';
-import menuButtonImg from './menuButton.png';
+import React from 'react';
+import menuButtonImg from './../../../../img/menuButton.png';
 import './menuButton.css';
 
 function MenuButton(props) {
 
     return (
-        <div className="divMenuButton" onClick={props.click}>
-            <a /* href="#" */ /* onClick={swapBackColor} style={{backgroundColor:backColor}} */ className="aMenuButton"><img src={menuButtonImg} className="imgMenuButton" ></img></a>
+        <div className="div-menu-button" onClick={props.click}>
+            <a /* href="#" */ className="a-menu-button">
+                <img src={menuButtonImg} className="img-menu-button" ></img>
+            </a>
         </div>
     )
 }
