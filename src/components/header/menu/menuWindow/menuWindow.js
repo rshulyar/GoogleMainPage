@@ -3,7 +3,7 @@ import MenuWindowElement from './../menuWindowElement';
 import config from './../../../../config';
 import './menuWindow.css';
 
-function MenuWindow() {
+function MenuWindow({onClose}) {
 
     let config1 = config.menu1;
     let config2 = config.menu2;
@@ -39,16 +39,18 @@ function MenuWindow() {
     }
 
     return (
-        <div className='menuWindow'>
-            <div className="menuParth1">
-                {result}
-            </div>
-            <hr className="betweenParthMenu"></hr>
-            <div className="menuParth2">
-                {result2}
-            </div>
-            <div className="divLinkInTheEndMenu">
-                <a href={config.menuLink} className="linkInTheEndMenu">Більше від Google</a>
+        <div className="closeMenuWindow" onClick={onClose}>
+            <div className='menuWindow' onClick={(e)=>{e.stopPropagation()}}>
+                <div className="menuParth1">
+                    {result}
+                </div>
+                <hr className="betweenParthMenu"></hr>
+                <div className="menuParth2">
+                    {result2}
+                </div>
+                <div className="divLinkInTheEndMenu">
+                    <a href={config.menuLink} className="linkInTheEndMenu">Більше від Google</a>
+                </div>
             </div>
         </div>
     )
