@@ -7,7 +7,7 @@ function AccountMenuButton() {
     return (
         <div className="upper-account-menu-button account-menu-button">
             <div className="lower-account-menu-button account-menu-button">
-                <a className="a-account-menu-bitton">
+                <a className="a-account-menu-button">
                     <img src={accountButtonImg} className="img-account-menu-button"></img>
                 </a>
             </div>
