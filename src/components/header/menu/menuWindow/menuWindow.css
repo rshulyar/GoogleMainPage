@@ -37,7 +37,7 @@
 
 }
 
-.menu-parth1 {
+.menu-part1 {
     padding-bottom: 0px;
     padding-inline-start: 14px;
     padding-left: 14px;
@@ -48,7 +48,7 @@
     align-content: flex-start;
 }
 
-.menu-parth2 {
+.menu-part2 {
     padding-bottom: 0px;
     padding-inline-start: 14px;
     padding-left: 14px;
@@ -59,7 +59,7 @@
     align-content: flex-start;
 }
 
-.between-parth-menu {
+.between-part-menu {
     background-color: silver;
     border: 0px solid yellow;
     border-top: 1px solid rgb(219, 220, 225);

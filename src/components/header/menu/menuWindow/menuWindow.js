@@ -16,24 +16,24 @@ function MenuWindow({onClose}) {
 
     const result = [];
     for (let i = 0; i < config1Length; i++) {
-        result.push(<MenuWindowElement name={config.menu1[i][0]} link={config.menu1[i][1]} positionY={config.menu1[i][2]}/>)
+        result.push(<MenuWindowElement name={config1[i].name} link={config1[i].link} positionY={config1[i].position}/>)
         reverseArrNum--;
     }
 
     const result2 = [];
     for (let i = 0; i < config2Length; i++) {
-        result2.push(<MenuWindowElement name={config.menu2[i][0]} link={config.menu2[i][1]} positionY={config.menu2[i][2]}/>)
+        result2.push(<MenuWindowElement name={config2[i].name} link={config2[i].link} positionY={config2[i].position}/>)
         reverseArrNum--;
     }
 
     return (
         <div className="close-menu-window" onClick={onClose}>
             <div className='menu-window' onClick={(e)=>{e.stopPropagation()}}>
-                <div className="menu-parth1">
+                <div className="menu-part1">
                     {result}
                 </div>
-                <hr className="between-parth-menu"></hr>
-                <div className="menu-parth2">
+                <hr className="between-part-menu"></hr>
+                <div className="menu-part2">
                     {result2}
                 </div>
                 <div className="div-link-in-the-end-menu">

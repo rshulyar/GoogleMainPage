@@ -4,17 +4,17 @@ import MenuWindow from './menuWindow';
 import './menu.css';
 
 const Menu = () => {
-    const [open, setOpen] = useState(false);
+    const [toggleOpen, setToggleOpen] = useState(false);
 
-    function mouseClick () {
-        setOpen(!open);
+    function onClick () {
+        setToggleOpen(!toggleOpen);
     }
 
     return (
         <div className="upper-menu menu">
             <div className="lower-menu menu">
-                <MenuButton click={mouseClick}/>
-                {open && <MenuWindow onClose={() => setOpen(false)}/>}
+                <MenuButton click={onClick}/>
+                {toggleOpen && <MenuWindow onClose={() => setToggleOpen(false)}/>}
             </div>
         </div>
     )
