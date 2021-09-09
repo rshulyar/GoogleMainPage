@@ -1,0 +1,155 @@
+.div1-amwum {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 51px;
+    line-height: normal;
+    overflow-x: hidden;
+    user-select: text;
+    white-space: nowrap;
+    width: 354px;
+    border-top: 1px solid rgb(232, 234, 237);
+    /* border-bottom: 1px solid rgb(219, 220, 225); */
+}
+
+.a-amwum {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 64, 67);
+    cursor: pointer;
+    display: table;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 23px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    outline-color:rgb(60, 64, 67);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 14px;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 14px;
+    text-align: center;
+    text-decoration-color: rgb(60, 64, 67);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    user-select: text;
+    white-space: nowrap;
+    width: 354px;
+}
+
+.a-amwum:hover {
+    background-color: rgb(232, 234, 237); /* pick a color */
+}
+
+.div-img-amwum {
+    border-bottom-color: rgb(60, 64, 67);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(60, 64, 67);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(60, 64, 67);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(60, 64, 67);
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(60, 64, 67);
+    cursor: pointer;
+    display: table-cell;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 23px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration-thickness: auto;
+    user-select: text;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 20px;
+}
+
+.img-amwum {
+    color: rgb(95, 99, 104);
+    cursor: pointer;
+    display: inline;
+    fill: rgb(95, 99, 104);
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 20px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    opacit: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    text-decoration-thickness: auto;
+    user-select: text;
+    white-space: nowrap;
+    width: 20px;
+}
+
+.div2-amwum {
+    color: rgb(60, 64, 67);
+    cursor: pointer;
+    display: table-cell;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 23px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 74px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration-thickness: auto;
+    user-select: text;
+    vertical-align: middle;
+    white-space: normal;
+    width: 244px;
+}
