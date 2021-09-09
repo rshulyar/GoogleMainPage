@@ -11,7 +11,7 @@ function AccountMenuWindow({onClose}) {
         <div className="close-account-menu-window" onClick={onClose}>
             <div className="account-menu-window" onClick={(e)=>{e.stopPropagation()}}>
                 <AccountMenuWindowTop/>
-                <AccountMenuWindowUpperMiddle/> {/* create image */}
+                <AccountMenuWindowUpperMiddle/>
                 <AccountMenuWindowLowerMiddle/>
                 <AccountMenuWindowBottom/>
             </div>
