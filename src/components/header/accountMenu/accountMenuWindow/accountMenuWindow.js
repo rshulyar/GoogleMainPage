@@ -5,11 +5,11 @@ import AccountMenuWindowTop from '../accountMenuWindowTop';
 import AccountMenuWindowUpperMiddle from '../accountMenuWindowUpperMiddle';
 import './accountMenuWindow.css';
 
-function AccountMenuWindow() {
+function AccountMenuWindow({onClose}) {
 
     return (
-        <div className="close-account-menu-window">
-            <div className="account-menu-window">
+        <div className="close-account-menu-window" onClick={onClose}>
+            <div className="account-menu-window" onClick={(e)=>{e.stopPropagation()}}>
                 <AccountMenuWindowTop/> {/* pick a color */}
                 <AccountMenuWindowUpperMiddle/> {/* pick a color, create image */}
                 <AccountMenuWindowLowerMiddle/> {/* pick a color */}
