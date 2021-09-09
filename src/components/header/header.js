@@ -3,6 +3,7 @@ import GmailLink from './gmailLink';
 import ImagesLink from './imagesLink';
 import Menu from './menu';
 import './header.css';
+import AccountMenu from './accountMenu';
 
 function Header() {
     return (
@@ -15,6 +16,7 @@ function Header() {
                     </div>
                     <div className="menuAndAccount under-upper under-lower">
                         <Menu/>
+                        <AccountMenu/>
                     </div>
                 </div>
             </div>
