@@ -5,11 +5,11 @@ import './menuButton.css';
 function MenuButton(props) {
 
     return (
-        <div className="div-menu-button" onClick={props.click}>
-            <a className="a-menu-button">
-                <img src={menuButtonImg} className="img-menu-button" ></img>
+        <div className="wrap-menu-button" onClick={props.click}>
+            <a className="link-menu-button">
+                <img src={menuButtonImg} className="image-menu-button" ></img>
             </a>
-            <span className="hint">Додатки Google</span>
+            <span className="hint-menu-button">Додатки Google</span>
         </div>
     )
 }

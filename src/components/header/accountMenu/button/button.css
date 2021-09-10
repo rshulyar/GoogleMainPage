@@ -1,14 +1,14 @@
-.upper-account-menu-button {
+.wrap-account-button {
     display: inline-block;
     vertical-align: middle;
     border-radius: 50%;
 }
 
-.upper-account-menu-button:hover {
+.wrap-account-button:hover {
     background-color: rgb(240, 240, 240);
 }
 
-.upper-account-menu-button .account-menu-button-hint {
+.wrap-account-button .account-button-hint {
     visibility: hidden;
     width: 180px;
     background-color: #555;
@@ -24,25 +24,25 @@
     opacity: 0;
 }
 
-.upper-account-menu-button:hover .account-menu-button-hint {
+.wrap-account-button:hover .account-button-hint {
     visibility: visible;
     transition-delay: 0.5s;
     opacity: 1;
 }
 
-.account-menu-button-hint {
+.account-button-hint {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     z-index: 992;
 }
 
-.lower-account-menu-button {
+.inner-account-button {
     display: block;
     position: relative;
 }
 
-.account-menu-button {
+.container-account-button {
     color: rgb(0, 0, 0);
     flex-basis: auto;
     flex-grow: 0;
@@ -63,7 +63,7 @@
     width: 40px;
 }
 
-.a-account-menu-button {
+.link-account-button {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
@@ -103,7 +103,7 @@
     width: 40px;
 }
 
-.img-account-menu-button {
+.image-account-button {
     background-size: 32px 32px;
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-left-radius: 50%;

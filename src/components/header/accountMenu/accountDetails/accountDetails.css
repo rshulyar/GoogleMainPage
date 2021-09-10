@@ -1,4 +1,4 @@
-.account-menu-window-top {
+.wrap {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -21,7 +21,7 @@
     width: 288px;
 }
 
-.div-image-account-in-account-menu-window-top {
+.container-image {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -45,7 +45,7 @@
     width: 86px;
 }
 
-.image-account-in-account-menu-window-top {
+.image {
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -91,7 +91,7 @@
     width: 80px;
 }
 
-.lower-part-account-menu-window-top {
+.container-link {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -112,7 +112,7 @@
     width: 288px;
 }
 
-.name-in-account-menu-window-top {
+.container-name {
     color: rgb(32, 33, 36);
     display: block;
     font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
@@ -140,7 +140,7 @@
     width: 288px;
 }
 
-.mail-in-account-menu-window-top{
+.container-mail{
     color: rgb(95, 99, 104);
     display: block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
@@ -164,7 +164,7 @@
     width: 288px;
 }
 
-.a-in-account-menu-window-top {
+.link-account {
     background-color: rgb(255, 255, 255);
     border-bottom-color: rgb(218, 220, 224);
     border-bottom-left-radius: 100px;
@@ -227,6 +227,6 @@
     width: 195.266px;
 }
 
-.a-in-account-menu-window-top:hover {
+.link-account:hover {
     background-color: rgb(247, 248, 248);
 }

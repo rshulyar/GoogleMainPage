@@ -1,19 +1,19 @@
 import React, {useState} from 'react';
 import './accountMenu.css';
-import AccountMenuButton from './accountMenuButton';
-import AccountMenuWindow from './accountMenuWindow';
+import Button from './button';
+import Window from './window';
 
 function AccountMenu() {
-    const [toggleOpen, setToggleOpen] = useState(false);
+    const [toggleMenu, setToggleMenu] = useState(false);
 
     function onClick () {
-        setToggleOpen(!toggleOpen);
+        setToggleMenu(!toggleMenu);
     }
 
     return(
-        <div className="account-menu">
-            <AccountMenuButton click={onClick}/>
-            {toggleOpen && <AccountMenuWindow onClose={() => setToggleOpen(false)}/>}
+        <div className="container">
+            <Button click={onClick}/>
+            {toggleMenu && <Window onClose={() => setToggleMenu(false)}/>}
         </div>
     );
 }

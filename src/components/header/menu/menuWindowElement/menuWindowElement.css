@@ -1,4 +1,4 @@
-.div1-menu-window-element {
+.wrap-menu-window-element {
     color: rgba(0, 0, 0, 0.87);
     display: inline-block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
@@ -20,7 +20,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 } 
 
-.a-menu-window-element {
+.link-menu-window-element {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -51,11 +51,11 @@
     -webkit-user-drag: none;
 }
 
-.a-menu-window-element:hover {
+.link-menu-window-element:hover {
     background-color: rgb(231, 242, 248);
 }
 
-.div2-menu-window-element {
+.image-container-menu-window-element {
     color: rgb(41, 98, 255);
     cursor: pointer;
     display: block;
@@ -71,7 +71,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.span1-menu-window-element {
+.image-menu-window-element {
     background-image: url(./../../../../img/menuWindowElementImages.png);
     background-position-x: 0px;
     background-position-y: -1794px;
@@ -91,7 +91,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.span2-menu-window-element {
+.text-menu-window-element {
     color: rgb(32, 33, 36);
     cursor: pointer;
     display: inline-block;

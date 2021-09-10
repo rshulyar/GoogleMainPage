@@ -1,4 +1,4 @@
-.div-amwlm {
+.wrap-exit {
     border-bottom-color: rgb(232, 234, 237);
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -28,7 +28,7 @@
     width: 320px;
 }
 
-.a-amwlm {
+.link-exit {
     background-color: rgb(255, 255, 255);
     border-bottom-color: rgb(218, 220, 224);
     border-bottom-left-radius: 4px;
@@ -87,6 +87,6 @@
     width: 41.6094px;
 }
 
-.a-amwlm:hover {
+.link-exit:hover {
     background-color: rgb(247, 248, 248);
 }
