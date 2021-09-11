@@ -1,13 +1,13 @@
 import React from 'react';
 import config from '../../../../config';
-import './footer.css';
+import styles from './footer.module.css';
 
 function Footer() {
 
     return(
-        <div className="wrap-footer-account">
-            <a href={config.privacyPolicy} className="privacy-policy-link links-footer-account">Політика конфіденційності</a>
-            <a href={config.termsAndConditions} className="terms-and-conditions-link links-footer-account">Загальні положення та умови</a>
+        <div className={styles["wrap"]}>
+            <a href={config.privacyPolicy} className={`${styles["privacy-policy-link"]} ${styles["link"]}`}>Політика конфіденційності</a>
+            <a href={config.termsAndConditions} className={`${styles["terms-and-conditions-link"]} ${styles["link"]}`}>Загальні положення та умови</a>
         </div>
     );
 }

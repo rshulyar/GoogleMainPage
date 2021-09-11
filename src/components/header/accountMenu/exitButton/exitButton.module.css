@@ -1,4 +1,4 @@
-.wrap-exit {
+.wrap {
     border-bottom-color: rgb(232, 234, 237);
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -28,7 +28,7 @@
     width: 320px;
 }
 
-.link-exit {
+.link {
     background-color: rgb(255, 255, 255);
     border-bottom-color: rgb(218, 220, 224);
     border-bottom-left-radius: 4px;
@@ -87,6 +87,6 @@
     width: 41.6094px;
 }
 
-.link-exit:hover {
+.link:hover {
     background-color: rgb(247, 248, 248);
 }

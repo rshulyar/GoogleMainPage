@@ -1,5 +1,5 @@
 import React from 'react';
-import './addAccount.css';
+import styles from './addAccount.module.css';
 import config from '../../../../config';
 import addAccountImg from './../../../../img/addAccount.png';
 
@@ -7,12 +7,12 @@ import addAccountImg from './../../../../img/addAccount.png';
 function AddAccount() {
 
     return(
-        <div className="wrap-add">
-            <a href={config.addAccountLink} className="link-add-account">
-                <div className="container-image-add">
-                    <img src={addAccountImg} className="image-add"></img>
+        <div className={styles["wrap"]}>
+            <a href={config.addAccountLink} className={styles["link"]}>
+                <div className={styles["image-container"]}>
+                    <img src={addAccountImg} className={styles["image"]}></img>
                 </div>
-                <div className="container-text-add">Додати інший обліковий запис</div>
+                <div className={styles["text-container"]}>Додати інший обліковий запис</div>
             </a>
         </div>
     );

@@ -1,7 +1,7 @@
 import React, {Component, useState} from 'react';
-import MenuButton from './menuButton';
-import MenuWindow from './menuWindow';
-import './menu.css';
+import Button from './button';
+import Window from './window';
+import styles from './menu.module.css';
 
 const Menu = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -11,10 +11,10 @@ const Menu = () => {
     }
 
     return (
-        <div className="wrap-menu menu">
-            <div className="inner-menu menu">
-                <MenuButton click={onClick}/>
-                {toggleMenu && <MenuWindow onClose={() => setToggleMenu(false)}/>}
+        <div className={`${styles["wrap"]} ${styles["menu"]}`}>
+            <div className={`${styles["inner"]} ${styles["menu"]}`}>
+                <Button click={onClick}/>
+                {toggleMenu && <Window onClose={() => setToggleMenu(false)}/>}
             </div>
         </div>
     )

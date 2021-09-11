@@ -1,11 +1,11 @@
 import React from 'react';
 import config from '../../../../config';
-import './exitButton.css';
+import styles from './exitButton.module.css';
 
 function ExitButton() {
     return(
-        <div className="wrap-exit">
-            <a href={config.signOutLink} className="link-exit">Вийти</a>
+        <div className={styles["wrap"]}>
+            <a href={config.signOutLink} className={styles["link"]}>Вийти</a>
         </div>
     );
 }

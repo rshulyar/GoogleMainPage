@@ -1,4 +1,4 @@
-.wrap-add {
+.wrap {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -20,7 +20,7 @@
     /* border-bottom: 1px solid rgb(219, 220, 225); */
 }
 
-.link-add-account {
+.link {
     background-color: rgb(255, 255, 255);
     color: rgb(60, 64, 67);
     cursor: pointer;
@@ -54,11 +54,11 @@
     width: 354px;
 }
 
-.link-add-account:hover {
+.link:hover {
     background-color: rgb(247, 248, 248);
 }
 
-.container-image-add {
+.image-container {
     border-bottom-color: rgb(60, 64, 67);
     border-bottom-style: none;
     border-bottom-width: 0px;
@@ -99,7 +99,7 @@
     width: 20px;
 }
 
-.image-add {
+.image {
     color: rgb(95, 99, 104);
     cursor: pointer;
     display: inline;
@@ -127,7 +127,7 @@
     padding-bottom: 1px;
 }
 
-.container-text-add {
+.text-container {
     color: rgb(60, 64, 67);
     cursor: pointer;
     display: table-cell;

@@ -1,4 +1,4 @@
-.wrap-menu-button {
+.wrap {
     color: rgb(0, 0, 0);
     display: block;
     font-family: Roboto, RobotoDraft, Arial, sans-serif;
@@ -18,7 +18,7 @@
     width: 40px;
 }
 
-.wrap-menu-button .hint-menu-button {
+.wrap .hint {
     visibility: hidden;
     width: 120px;
     background-color: #555;
@@ -34,13 +34,13 @@
     opacity: 0;
 }
 
-.wrap-menu-button:hover .hint-menu-button {
+.wrap:hover .hint {
     visibility: visible;
     transition-delay: 0.5s;
     opacity: 1;
 }
 
-.link-menu-button {
+.link {
     background-position-x-: 64px;
     background-position-y-: 29px;
     border-bottom-left-radius: 2px;
@@ -81,11 +81,11 @@
     width: 40px;
 }
 
-.link-menu-button:hover {
+.link:hover {
     background-color: rgb(240, 240, 240);
 }
 
-.image-menu-button {
+.image {
     color: rgb(95, 99, 104);
     cursor: pointer;
     display: inline;

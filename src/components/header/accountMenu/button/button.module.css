@@ -1,14 +1,14 @@
-.wrap-account-button {
+.wrap {
     display: inline-block;
     vertical-align: middle;
     border-radius: 50%;
 }
 
-.wrap-account-button:hover {
+.wrap:hover {
     background-color: rgb(240, 240, 240);
 }
 
-.wrap-account-button .account-button-hint {
+.wrap .hint {
     visibility: hidden;
     width: 180px;
     background-color: #555;
@@ -24,25 +24,25 @@
     opacity: 0;
 }
 
-.wrap-account-button:hover .account-button-hint {
+.wrap:hover .hint {
     visibility: visible;
     transition-delay: 0.5s;
     opacity: 1;
 }
 
-.account-button-hint {
+.hint {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     z-index: 992;
 }
 
-.inner-account-button {
+.inner {
     display: block;
     position: relative;
 }
 
-.container-account-button {
+.container {
     color: rgb(0, 0, 0);
     flex-basis: auto;
     flex-grow: 0;
@@ -63,7 +63,7 @@
     width: 40px;
 }
 
-.link-account-button {
+.link {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
@@ -103,7 +103,7 @@
     width: 40px;
 }
 
-.image-account-button {
+.image {
     background-size: 32px 32px;
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-left-radius: 50%;

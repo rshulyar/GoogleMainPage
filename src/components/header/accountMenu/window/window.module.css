@@ -1,4 +1,4 @@
-.close-account-window-container {
+.close-window {
     position: absolute;
     width: 3000%;
     height: 100vh;
@@ -7,7 +7,7 @@
     z-index: -999;
 }
 
-.account-menu-window {
+.window {
     animation-delay: 0s;
     animation-direction: normal;
     animation-duration: 0.2s;

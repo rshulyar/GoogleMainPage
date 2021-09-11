@@ -14,13 +14,13 @@
     white-space: nowrap;
 }
 
-.wrap-menu {
+.wrap {
     display: inline;
     height: auto;
     width: auto;
 }
 
-.inner-menu {
+.inner {
     display: inline-block;
     height: 40px;
     padding-bottom: 4px;
