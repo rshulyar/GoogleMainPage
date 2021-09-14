@@ -23,14 +23,14 @@
     max-height: 92px;
     position: relative;
     width: 272px;
-    margin-top: 68px; 
+    /* margin-top: 68px;  */
 }
 
-@media screen and (min-height: 666) {
+/* @media screen and (min-height: 666) {
     .inner {
         margin-top: 0px;
     }
-}
+} */
 
 .image {
     aspect-ratio: auto 272 / 92;
