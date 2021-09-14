@@ -5,8 +5,8 @@ function Buttons() {
 
     return (
         <div className={styles["wrap"]}>
-            <input className={`${styles["button"]} ${styles["search-google"]}`} type="submit" value="Пошук Google"></input>
-            <input className={`${styles["button"]} ${styles["luky-me"]}`} type="submit" value="Мені пощастить"></input>
+            <input className={`${styles["button"]} ${styles["search-google"]}`} type="submit" value="Пошук Google"/>
+            <input className={`${styles["button"]} ${styles["luky-me"]}`} type="submit" value="Мені пощастить"/>
         </div>
     );
 }
