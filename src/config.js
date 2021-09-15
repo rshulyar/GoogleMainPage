@@ -161,6 +161,7 @@ const config = {
         }
     ],
     menuLink: 'https://www.google.com.ua/intl/uk/about/products?tab=rh',
+    swapLanguage: 'https://www.google.com/setprefs?sig=0_N6n_0-UOc6mGMI3b6mVfTYS7MvU%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiJv4Ct-_7yAhUPE6YKHYD2CbgQ2ZgBCA4',
     accountPageLink: 'https://myaccount.google.com/?utm_source=OGB&utm_medium=act',
     addAccountLink: 'https://accounts.google.com/AddSession?hl=uk&continue=https://www.google.com/&ec=GAlAmgQ',
     signOutLink: 'https://accounts.google.com/Logout?hl=uk&continue=https://www.google.com/&timeStmp=1631032317&secTok=.AG5fkS9vJE_9JJyfqPH0sj9cuoYe027ZFw&ec=GAdAmgQ',

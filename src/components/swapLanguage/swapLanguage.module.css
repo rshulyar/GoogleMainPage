@@ -1,0 +1,31 @@
+.wrap {
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 28px;
+    padding-top: 6px;
+}
+
+.text {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    white-space: pre;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
