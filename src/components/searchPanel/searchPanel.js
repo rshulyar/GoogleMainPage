@@ -7,7 +7,7 @@ function SearchPanel() {
 
     return (
         <div className={styles["wrap"]}>
-            <form className={styles["form"]}>
+            <form action={`https://www.google.com/search?q=${'#'}`} method="get" id="search" className={styles["form"]}>
                 <Search/>
                 <Buttons/>
             </form>
