@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/header';
 import Logo from './components/logo';
 import SearchPanel from './components/searchPanel';
+import SwapLanguage from './components/swapLanguage';
 import styles from './App.module.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Logo/>
       <SearchPanel/>
+      <SwapLanguage/>
     </div>
   );
 }

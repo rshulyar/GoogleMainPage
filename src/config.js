@@ -195,7 +195,8 @@ const config = {
             position: -2139
         }
     ],
-    menuLink: 'https://www.google.com.ua/intl/uk/about/products?tab=rh'
+    menuLink: 'https://www.google.com.ua/intl/uk/about/products?tab=rh',
+    swapLanguage: 'https://www.google.com/setprefs?sig=0_N6n_0-UOc6mGMI3b6mVfTYS7MvU%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiJv4Ct-_7yAhUPE6YKHYD2CbgQ2ZgBCA4'
 };
 
 export default config;
