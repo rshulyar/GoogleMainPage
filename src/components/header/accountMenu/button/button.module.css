@@ -1,14 +1,14 @@
-.upper-account-menu-button {
+.wrap {
     display: inline-block;
     vertical-align: middle;
     border-radius: 50%;
 }
 
-.upper-account-menu-button:hover {
+.wrap:hover {
     background-color: rgb(240, 240, 240);
 }
 
-.upper-account-menu-button .account-menu-button-hint {
+.wrap .hint {
     visibility: hidden;
     width: 180px;
     background-color: #555;
@@ -19,29 +19,30 @@
     position: absolute;
     z-index: 1;
     top: 110%;
-    left: -200%;
+    left: -40%;
     margin-left: -60px;
     opacity: 0;
 }
 
-.upper-account-menu-button:hover .account-menu-button-hint {
+.wrap:hover .hint {
     visibility: visible;
     transition-delay: 0.5s;
     opacity: 1;
 }
 
-.account-menu-button-hint {
+.hint {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 992;
 }
 
-.lower-account-menu-button {
+.inner {
     display: block;
     position: relative;
 }
 
-.account-menu-button {
+.container {
     color: rgb(0, 0, 0);
     flex-basis: auto;
     flex-grow: 0;
@@ -62,7 +63,7 @@
     width: 40px;
 }
 
-.a-account-menu-button {
+.link {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
@@ -102,7 +103,7 @@
     width: 40px;
 }
 
-.img-account-menu-button {
+.image {
     background-size: 32px 32px;
     border-bottom-color: rgb(0, 0, 0);
     border-bottom-left-radius: 50%;
