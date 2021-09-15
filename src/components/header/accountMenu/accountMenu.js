@@ -1,14 +1,19 @@
-import React from 'react';
-import './accountMenu.css';
-import AccountMenuButton from './accountMenuButton';
-import AccountMenuWindow from './accountMenuWindow';
+import React, {useState} from 'react';
+import styles from './accountMenu.module.css';
+import Button from './button';
+import Window from './window';
 
 function AccountMenu() {
+    const [toggleMenu, setToggleMenu] = useState(false);
+
+    function onClick () {
+        setToggleMenu(!toggleMenu);
+    }
 
     return(
-        <div className="account-menu">
-            <AccountMenuButton/>
-            <AccountMenuWindow/>
+        <div className={styles['container']}>
+            <Button click={onClick}/>
+            {toggleMenu && <Window onClose={() => setToggleMenu(false)}/>}
         </div>
     );
 }

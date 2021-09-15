@@ -1,0 +1,24 @@
+.container {
+    display: inline-block;
+    padding-left: 4px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 40px;
+    line-height: normal;
+    user-select: none;
+    white-space: nowrap;
+    width: 40px;
+}
+

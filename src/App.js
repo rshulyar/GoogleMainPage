@@ -1,9 +1,9 @@
 import Header from './components/header';
-import './App.css';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="main-div">
+    <div className={styles["main-wrap"]}>
       <Header/>
     </div>
   );

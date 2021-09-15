@@ -1,0 +1,32 @@
+.menu {
+    color: rgb(0, 0, 0);
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    line-height: normal;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.wrap {
+    display: inline;
+    height: auto;
+    width: auto;
+}
+
+.inner {
+    display: inline-block;
+    height: 40px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    vertical-align: middle;
+    width: 40px;
+}

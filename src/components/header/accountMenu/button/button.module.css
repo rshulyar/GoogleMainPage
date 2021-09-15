@@ -1,0 +1,153 @@
+.wrap {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.wrap:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.wrap .hint {
+    visibility: hidden;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: -40%;
+    margin-left: -60px;
+    opacity: 0;
+}
+
+.wrap:hover .hint {
+    visibility: visible;
+    transition-delay: 0.5s;
+    opacity: 1;
+}
+
+.hint {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 992;
+}
+
+.inner {
+    display: block;
+    position: relative;
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 40px;
+    line-height: normal;
+    user-select: none;
+    white-space: nowrap;
+    width: 40px;
+}
+
+.link {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 40px;
+    line-height: normal;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 40px;
+}
+
+.image {
+    background-size: 32px 32px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 32px;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: relative;
+    text-decoration-thickness: auto;
+    user-select: none;
+    white-space: nowrap;
+    width: 32px;
+    z-index: 0;
+}
