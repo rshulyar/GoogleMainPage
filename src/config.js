@@ -196,7 +196,15 @@ const config = {
         }
     ],
     menuLink: 'https://www.google.com.ua/intl/uk/about/products?tab=rh',
-    swapLanguage: 'https://www.google.com/setprefs?sig=0_N6n_0-UOc6mGMI3b6mVfTYS7MvU%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiJv4Ct-_7yAhUPE6YKHYD2CbgQ2ZgBCA4'
+    swapLanguage: 'https://www.google.com/setprefs?sig=0_N6n_0-UOc6mGMI3b6mVfTYS7MvU%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiJv4Ct-_7yAhUPE6YKHYD2CbgQ2ZgBCA4',
+    footer: {
+        aboutGoogle: 'https://about.google/?utm_source=google-UA&utm_medium=referral&utm_campaign=hp-footer&fg=1',
+        advertising: 'https://www.google.com/intl/uk_ua/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1',
+        forBusiness: 'https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1',
+        howWorkSearch: 'https://google.com/search/howsearchworks/?fg=1',
+        confidentiality: 'https://policies.google.com/privacy?hl=uk&fg=1',
+        conditions: 'https://policies.google.com/terms?hl=uk&fg=1'
+    }
 };
 
 export default config;
