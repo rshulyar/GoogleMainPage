@@ -1,4 +1,4 @@
-.close-menu-window {
+.close-window {
     position: absolute;
     width: 3000%;
     height: 100vh;
@@ -65,7 +65,7 @@
     border-top: 1px solid rgb(219, 220, 225);
 }
 
-.div-link-in-the-end-menu{
+.link-container{
     color: rgba(0, 0, 0, 0.87);
     display: block;
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
@@ -77,7 +77,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.link-in-the-end-menu {
+.link {
     background-color: rgb(255, 255, 255);
     border-bottom-color: rgb(218, 220, 224);
     border-bottom-left-radius: 4px;
@@ -141,7 +141,7 @@
     white-space: nowrap;
 }
 
-.link-in-the-end-menu:hover { 
+.link:hover { 
     background-color: rgb(231, 242, 248);
 }
 
