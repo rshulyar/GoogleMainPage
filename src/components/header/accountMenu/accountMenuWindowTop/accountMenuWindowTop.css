@@ -1,0 +1,232 @@
+.account-menu-window-top {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 190px;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: 20px;
+    user-select: text;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.div-image-account-in-account-menu-window-top {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 86px;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-left: 101px;
+    position: relative;
+    text-align: center;
+    user-select: text;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 86px;
+}
+
+.image-account-in-account-menu-window-top {
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 80px;
+    line-height: normal;
+    margin-right: 6px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    user-select: text;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 80px;
+}
+
+.lower-part-account-menu-window-top {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-size: 13px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 94px;
+    line-height: normal;
+    text-align: center;
+    user-select: text;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.name-in-account-menu-window-top {
+    color: rgb(32, 33, 36);
+    display: block;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 22px;
+    letter-spacing: 0.29px;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    user-select: text;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.mail-in-account-menu-window-top{
+    color: rgb(95, 99, 104);
+    display: block;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 19px;
+    letter-spacing: normal;
+    line-height: 19px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    user-select: text;
+    white-space: nowrap;
+    width: 288px;
+}
+
+.a-in-account-menu-window-top {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(218, 220, 224);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(218, 220, 224);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(218, 220, 224);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(218, 220, 224);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: rgb(60, 64, 67);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    height: 16px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 16px;
+    max-width: 254px;
+    outline-color: rgb(60, 64, 67);
+    outline-style: none;
+    outline-width: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration-color: rgb(60, 64, 67);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-overflow: ellipsis;
+    user-select: text;
+    white-space: nowrap;
+    width: 195.266px;
+}
+
+.a-in-account-menu-window-top:hover {
+    background-color: rgb(219, 220, 225); /* pick a color */
+}
