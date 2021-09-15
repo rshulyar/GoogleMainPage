@@ -6,7 +6,7 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <div className={styles["main-div"]}>
+    <div className={styles["main-wrap"]}>
       <Header/>
       <Logo/>
       <SearchPanel/>

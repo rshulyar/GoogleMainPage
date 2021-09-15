@@ -2,19 +2,19 @@ import React from 'react';
 import GmailLink from './gmailLink';
 import ImagesLink from './imagesLink';
 import Menu from './menu';
-import './header.css';
+import styles from './header.module.css';
 import AccountMenu from './accountMenu';
 
 function Header() {
     return (
-        <div className="upper">
-            <div className="middle under-upper">
-                <div className="lower under-upper">
-                    <div className="link under-upper under-lower">
+        <div className={styles["upper"]}>
+            <div className={`${styles["middle"]} ${styles["under-upper"]}`}>
+                <div className={`${styles["lower"]} ${["under-upper"]}`}>
+                    <div className={`${styles["link"]} ${styles["under-upper"]} ${styles["under-lower"]}`}>
                         <GmailLink/>
                         <ImagesLink/>
                     </div>
-                    <div className="menuAndAccount under-upper under-lower">
+                    <div className={`${styles["menu-container"]} ${styles["under-upper"]} ${styles["under-lower"]}`}>
                         <Menu/>
                         <AccountMenu/>
                     </div>

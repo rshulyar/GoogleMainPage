@@ -1,20 +1,20 @@
 import React, {Component, useState} from 'react';
-import MenuButton from './menuButton';
-import MenuWindow from './menuWindow';
-import './menu.css';
+import Button from './button';
+import Window from './window';
+import styles from './menu.module.css';
 
 const Menu = () => {
-    const [toggleOpen, setToggleOpen] = useState(false);
+    const [toggleMenu, setToggleMenu] = useState(false);
 
     function onClick () {
-        setToggleOpen(!toggleOpen);
+        setToggleMenu(!toggleMenu);
     }
 
     return (
-        <div className="upper-menu menu">
-            <div className="lower-menu menu">
-                <MenuButton click={onClick}/>
-                {toggleOpen && <MenuWindow onClose={() => setToggleOpen(false)}/>}
+        <div className={`${styles["wrap"]} ${styles["menu"]}`}>
+            <div className={`${styles["inner"]} ${styles["menu"]}`}>
+                <Button click={onClick}/>
+                {toggleMenu && <Window onClose={() => setToggleMenu(false)}/>}
             </div>
         </div>
     )
