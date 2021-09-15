@@ -10,7 +10,20 @@
     height: 92px;
     max-height: 290px;
     min-height: 92px;
-    /* width: 1440px; */
+
+    margin-top: 68px;
+}
+
+@media (max-width: 2560px) and (min-width: 1441px) {
+    .wrap {
+        margin-top: 198px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) and (max-height: 450px) {
+    .wrap {
+        margin-top: 0px;
+    }
 }
 
 .inner {
@@ -23,13 +36,6 @@
     max-height: 92px;
     position: relative;
     width: 272px;
-    margin-top: 68px; 
-}
-
-@media screen and (min-height: 666) {
-    .inner {
-        margin-top: 0px;
-    }
 }
 
 .image {

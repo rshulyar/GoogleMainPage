@@ -1,0 +1,35 @@
+.wrap {
+    padding-top: 18px;
+    padding-left: 8px;
+    width: 584px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 11px 4px;
+    border: 1px solid rgb(248, 249, 250);
+    padding: 0px 16px;
+    height: 36px;
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+}
+
+.button:hover {
+    border: 1px solid rgb(218, 220, 224); 
+    cursor: pointer;
+}
+
+.search-google {
+    width: 125.25px;
+}
+
+.luky-me {
+    width: 137.95px;
+    margin-left: 8px;
+}

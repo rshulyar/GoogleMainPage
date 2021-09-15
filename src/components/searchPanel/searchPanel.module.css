@@ -1,0 +1,15 @@
+.wrap {
+    height: 120px;
+    padding: 20px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 584px;
+    height: 134px;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+}
