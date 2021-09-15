@@ -1,0 +1,47 @@
+.wrap {
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 92px;
+    max-height: 290px;
+    min-height: 92px;
+    /* width: 1440px; */
+}
+
+.inner {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 92px;
+    margin-top: 0px;
+    max-height: 92px;
+    position: relative;
+    width: 272px;
+    margin-top: 68px; 
+}
+
+@media screen and (min-height: 666) {
+    .inner {
+        margin-top: 0px;
+    }
+}
+
+.image {
+    aspect-ratio: auto 272 / 92;
+    color: rgb(34, 34, 34);
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 92px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: 50% 100%;
+    width: 272px;
+}
